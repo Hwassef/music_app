@@ -24,18 +24,21 @@ flutter:
   assets:
     - assets/images
     - assets/icons
+    - assets/fonts
 
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
+  fonts:
+    - family: Nano
+      fonts:
+        - asset: assets/fonts/Nano/NanoSans-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Nano/NanoSans-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Nano/NanoSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Nano/NanoSans-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Nano/NanoSans-Bold.ttf
+          weight: 700
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

@@ -6,7 +6,7 @@ import 'package:music_app/app/config/colors/app_dark_mode_colors.dart';
 class AppListTileDarkTheme {
   AppListTileDarkTheme._();
   static const ListTileThemeData listTileTheme = ListTileThemeData(
-    iconColor: AppLDarkModeColors.whiteColor,
+    iconColor: AppDarkModeColors.whiteColor,
     contentPadding: AppPaddings.listTileContentPadding,
     shape: RoundedRectangleBorder(
       borderRadius: AppConstants.normalBorderRadius,

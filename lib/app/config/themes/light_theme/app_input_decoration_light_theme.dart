@@ -16,8 +16,9 @@ class AppInputDecorationLightTheme {
       ),
     ),
     hintStyle: TextStyle(
-      fontFamily: 'Segoe',
+      fontFamily: 'Nano',
       fontSize: 12.0,
+      fontWeight: FontWeight.w400,
       color: AppLightModeColors.darkGreyColor,
     ),
   );

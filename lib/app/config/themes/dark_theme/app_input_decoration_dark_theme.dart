@@ -15,8 +15,9 @@ class AppInputDecorationDarkTheme {
       ),
     ),
     hintStyle: TextStyle(
-      fontFamily: 'Segoe',
+      fontFamily: 'Nano',
       fontSize: 12.0,
+      fontWeight: FontWeight.w400,
       color: AppDarkModeColors.darkGreyColor,
     ),
   );

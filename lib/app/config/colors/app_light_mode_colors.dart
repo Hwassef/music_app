@@ -7,4 +7,5 @@ class AppLightModeColors {
   static const Color darkGreyColor = Color(0xFF707070);
   static const Color lightBlackColor = Color(0xFF242424);
   static const Color redColor = Color(0xFFFF0203);
+  static const Color whiteColor = Color(0xFFFFFFFF);
 }

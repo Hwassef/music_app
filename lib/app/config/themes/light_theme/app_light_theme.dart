@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:music_app/app/config/colors/app_dark_mode_colors.dart';
+import 'package:music_app/app/config/themes/light_theme/app_text_light_theme.dart';
 
 import 'app_bottom_navigation_bar_light_theme.dart';
 import 'app_bottom_sheet_light_theme.dart';
@@ -14,5 +15,6 @@ class AppLightTheme {
     bottomSheetTheme: AppBottomSheetLightTheme.bottomSheetThemeData,
     inputDecorationTheme: AppInputDecorationLightTheme.inputDecorationTheme,
     listTileTheme: AppListTileLightTheme.listTileTheme,
+    textTheme: AppTextLightTheme.textTheme,
   );
 }

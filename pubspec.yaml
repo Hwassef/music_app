@@ -15,6 +15,7 @@ dependencies:
   equatable: ^2.0.5
   bloc: ^8.1.0
   flutter_bloc: ^8.1.1
+  device_info_plus: ^8.0.0
 
 dev_dependencies:
   flutter_test:
@@ -31,15 +32,15 @@ flutter:
     - assets/fonts
 
   fonts:
-    - family: Nano
+    - family: Noto
       fonts:
-        - asset: assets/fonts/Nano/NanoSans-Light.ttf
+        - asset: assets/fonts/Noto/NotoSans-Light.ttf
           weight: 300
-        - asset: assets/fonts/Nano/NanoSans-Regular.ttf
+        - asset: assets/fonts/Noto/NotoSans-Regular.ttf
           weight: 400
-        - asset: assets/fonts/Nano/NanoSans-Medium.ttf
+        - asset: assets/fonts/Noto/NotoSans-Medium.ttf
           weight: 500
-        - asset: assets/fonts/Nano/NanoSans-SemiBold.ttf
+        - asset: assets/fonts/Noto/NotoSans-SemiBold.ttf
           weight: 600
-        - asset: assets/fonts/Nano/NanoSans-Bold.ttf
+        - asset: assets/fonts/Noto/NotoSans-Bold.ttf
           weight: 700

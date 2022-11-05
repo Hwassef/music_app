@@ -27,20 +27,20 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/images
-    - assets/icons
-    - assets/fonts
+    - assets/images/
+    - assets/icons/
+    - assets/fonts/
 
-  fonts:
-    - family: Noto
-      fonts:
-        - asset: assets/fonts/Noto/NotoSans-Light.ttf
-          weight: 300
-        - asset: assets/fonts/Noto/NotoSans-Regular.ttf
-          weight: 400
-        - asset: assets/fonts/Noto/NotoSans-Medium.ttf
-          weight: 500
-        - asset: assets/fonts/Noto/NotoSans-SemiBold.ttf
-          weight: 600
-        - asset: assets/fonts/Noto/NotoSans-Bold.ttf
-          weight: 700
+fonts:
+  - family: Noto
+    fonts:
+      - asset: assets/fonts/Noto/NotoSans-Light.ttf
+        weight: 300
+      - asset: assets/fonts/Noto/NotoSans-Regular.ttf
+        weight: 400
+      - asset: assets/fonts/Noto/NotoSans-Medium.ttf
+        weight: 500
+      - asset: assets/fonts/Noto/NotoSans-SemiBold.ttf
+        weight: 600
+      - asset: assets/fonts/Noto/NotoSans-Bold.ttf
+        weight: 700
